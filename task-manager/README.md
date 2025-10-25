@@ -1,3 +1,7 @@
+# LIVE APP
+https://task-manager-react-haruna-ademoyes-projects.vercel.app/
+---
+
 # PLP Task Manager
 
 A responsive task management app built with React and Tailwind CSS as part of the PLP Front-End Development assignment. It allows users to manage tasks, switch themes, and view external data from a public API.
