@@ -12,7 +12,7 @@ const PostList = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const res = await axios.get('https://jsonplaceholder.typicode.com/posts');
+        axios.get('https://jsonplaceholder.typicode.com/posts');
         setPosts(res.data);
       } catch (err) {
         setError('Failed to fetch posts.');
