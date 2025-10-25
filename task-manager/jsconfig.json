@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+  },
+  "include": ["src/**/*", "tailwind.config.js", "tailwind.config.js", "jsconfig.json"],
+  "exclude": ["node_modules", "build", "dist"]
+}
