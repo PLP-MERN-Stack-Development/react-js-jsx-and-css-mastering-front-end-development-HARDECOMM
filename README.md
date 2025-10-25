@@ -1,4 +1,4 @@
-## My Solution
+# My Solution
 
 My full implementation is in the `/my-solution` folder.
 
