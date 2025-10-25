@@ -12,10 +12,8 @@ const PostList = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-        if (!response.ok) throw new Error('Network response was not ok');
-        const data = await response.json();
-        setPosts(data);
+        const res = await axios.get('https://jsonplaceholder.typicode.com/posts');
+        setPosts(res.data);
       } catch (err) {
         setError('Failed to fetch posts.');
       } finally {
