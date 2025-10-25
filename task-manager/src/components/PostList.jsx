@@ -11,7 +11,7 @@ const PostList = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+        const response = await fetch('https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/posts');
         if (!response.ok) throw new Error('Network response was not ok');
         const data = await response.json();
         setPosts(data);
