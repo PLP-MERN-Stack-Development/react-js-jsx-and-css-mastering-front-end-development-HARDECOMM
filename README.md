@@ -1,6 +1,6 @@
 # My Solution
 
-My full implementation is in the `/my-solution` folder.
+My full implementation is in the `/task-manager` folder.
 
 
 # React.js and Tailwind CSS Assignment
